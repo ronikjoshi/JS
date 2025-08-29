@@ -1,0 +1,60 @@
+//let myDate = new Date() //current date and time
+//console.log(myDate)
+//better below
+//console.log(myDate.toString())
+
+/* 
+
+run all the major method and check
+ - toDateString
+ - toISOString
+ - toJSON
+ - toLocaleDateString
+ - toLocaleString
+
+ Every method has a different format
+
+ */
+
+// console.log(typeof myDate)
+
+// Way of declaring date
+//let myCreatedDate = new Date(2023,0,23)
+//console.log(myCreatedDate.toDateString())
+//Month starts from 0
+
+//let myCreatedDate1 = new Date(2023,0,23,5,3)
+//console.log(myCreatedDate1.toLocaleString())
+
+//++++++++++++++++ Timestamp ++++++++++++++++++
+
+// For designing polls and quizes to check who answers the fastest
+
+//let myTimeStamp = Date.now()     //another way instead of using new
+//console.log(myTimeStamp)           // in mili second from 1972 or somewhere close. Check in MDN
+
+
+// to compare above time in mili second
+
+//let myCreatedDate = new Date("01-14-2023")
+//console.log(myCreatedDate.getTime())
+
+//to convert mili second into seconds divide by 1000
+//console.log(Math.floor(Date.now()/1000))
+//comparison should be done in mili second
+
+// To get specific element (day, month, time etc)
+
+//let newDate = new Date()
+//console.log(newDate)
+//console.log(newDate.getMonth())
+
+/*
+Other methods: 
+getDay()   => Day starts with Monday
+getDate()
+getHours()
+*/
+
+//.toLocaleString() => we define object inside this function andn we can define a lot of parameters as well
+// Ctrl + Space => All the properties are shown inside object
