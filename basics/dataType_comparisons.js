@@ -55,3 +55,27 @@ C++, typescript, java are statically typed.
 
 Java is more flexible but can lead to potential runtime errors if not handled carefully.
 */
+
+/*
+//Symbol (retrunn type 'symbol')
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id === anotherId)
+*/
+
+/*
+
+Type of value                      Result
+
+Undefined                          'undefined'
+Null                               'object'
+Boolean                            'boolean'
+Number                             'number'
+String                             'string'
+Object                             'object'
+Function                           'function'
+BigInt                             'bigInt'
+
+Data type of Non - primitive data types are called functions and object function for functions
+*/
