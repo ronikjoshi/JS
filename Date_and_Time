@@ -57,4 +57,4 @@ getHours()
 */
 
 //.toLocaleString() => we define object inside this function andn we can define a lot of parameters as well
-// Ctrl + Space => All the properties are shown inside object
+// Ctrl + Space => All the properties are shown inside objectt
